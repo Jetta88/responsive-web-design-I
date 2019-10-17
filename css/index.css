@@ -211,6 +211,13 @@ footer {
     left: 38%;
   }
 
+  .middle-img {
+    max-width: 800px;
+    min-width: 501px;
+    height: auto;
+  }
+
+
   .cta .circle-logo {
     visibility: hidden;
   }
@@ -224,6 +231,28 @@ footer {
     padding: 0px 45px;
     position: relative;
     left: 23%;
+  }
+
+  .main-content .top-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-content .bottom-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-content .top-content .text-content {
+    margin: 2%;
+    width: 37%;
+    /* position: relative;
+    left: 4%; */
+  }
+
+  .main-content .bottom-content .text-content {
+    margin: 2%;
+    width: 24%;
   }
 
 }
@@ -253,16 +282,48 @@ footer {
 
   }
 
+  header nav a:first-child {
+    /* border: 1px solid red; */
+    border-top: 1px solid black;
+  }
+
   header .logo-container {
     display: flex;
     position: relative;
-    margin-left: 19%;
+    /* margin-left: 19%; */
     top: -300px;
     padding-right: 27%;
+    left: 18%;
+    width: 100%;
+    
+   
+  }
+
+  .middle-img {
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+  }
+
+  .cta {
+    position: relative;
+    right: 20%;
   }
 
   .cta .circle-logo {
     visibility: hidden;
+  }
+
+  .cta .cta-text {
+    float: left;
+    vertical-align: top;
+    font-size: 77px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px 45px;
+    position: relative;
+    left: 23%;
+    top: 80px;
   }
 
   .main-content .top-content {
