@@ -279,8 +279,12 @@ footer {
     /* align-items: center; */
     line-height: 3;
     border-bottom: 1px solid black;
-    
 
+  }
+
+  header nav a:first-child {
+    /* border: 1px solid red; */
+    border-top: 1px solid black;
   }
 
   header .logo-container {
